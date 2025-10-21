@@ -1,7 +1,7 @@
 {
   "name": "react-vite-tailwind-login",
-  "homepage": "https://Nicolaserd.github,io/Exprimental-login/",
-  "version": "1.0.0",
+  "homepage": "https://Nicolaserd.github.io/Exprimental-login/",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

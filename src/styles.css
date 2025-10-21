@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Helpers */
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium shadow-soft transition active:scale-[0.98];
+}
+.btn-primary {
+  @apply bg-brand-green text-white hover:bg-emerald-700;
+}
+.input {
+  @apply w-full rounded-xl border border-neutral-700 bg-neutral-900 px-4 py-3 text-neutral-100 placeholder-neutral-500 outline-none ring-0 focus:border-brand-green;
+}
+.card {
+  @apply rounded-3xl border border-neutral-800 bg-neutral-900/60 p-6 shadow-soft backdrop-blur;
+}
+.link {
+  @apply text-emerald-400 hover:underline;
+}
